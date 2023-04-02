@@ -22,9 +22,9 @@ model adjusts to rapid scale changes and delivers density maps
 that are close to the ground truth.
 
 ## Installation
-PyTorch 0.4.1
+PyTorch 1.10
 
-Python 2.7
+Python 3.7
 
 ## Dataset
 
