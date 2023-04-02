@@ -29,7 +29,10 @@ Python 2.7
 ## Dataset
 
 &emsp;1. Download ShanghaiTech Part B Dataset from
-Dropbox: [link](https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0) or Baidu Disk: [link](http://pan.baidu.com/s/1nuAYslz).  
+~~Dropbox: [link](https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0) or Baidu Disk: [link](http://pan.baidu.com/s/1nuAYslz).~~  
+（上面这两个好像失效了，可是从下面下载（需要注册和实名认证，[2022最新实名认证身份号大全(20名失信被执行人)](https://xeround.com/n/60993.html)）：
+上海科技大学人群统计数据集：[link](https://www.datafountain.cn/datasets/5670)）
+
 
 &emsp;2. Create the hdf5 files with make_dataset.py, you need to set the path according to dataset location.
 
