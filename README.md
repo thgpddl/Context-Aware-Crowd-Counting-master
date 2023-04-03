@@ -21,10 +21,33 @@ row: Image from Part A. Second row: Image from Part B. Our
 model adjusts to rapid scale changes and delivers density maps
 that are close to the ground truth.
 
+# 我的实验结果
 ## Installation
-PyTorch 1.10
+- GPU: 3090
+- Python  3.8.10
+- CUDA:11.3
+- CUDnn:8200
+---
+- h5py                           2.10.0
+- matplotlib                     3.5.0
+- numpy                          1.21.4
+- opencv-python                  4.6.0.66
+- Pillow                         8.4.0
+- scikit-learn                   1.1.3
+- scipy                          1.9.3
+- torch                          1.10.0+cu113
+- torchvision                    0.11.1+cu113
 
-Python 3.7
+## 实验结果
+不修改源代码的配置，最终结果如下：
+|ShanghaiTech_Crowd_Counting_Dataset part_B|论文数据|实验数据|
+|--|--|--|
+|MAE|7.8|10.5|
+|RMSE|12.2|18.6|
+
+![image](https://user-images.githubusercontent.com/48787805/229395936-fcfc4f96-1f0b-459d-8a7a-6eb9349ad741.png)
+
+当然我的训练环境并没有和论文中的保持一致，不过数据上也比较接近了
 
 ## Dataset
 
