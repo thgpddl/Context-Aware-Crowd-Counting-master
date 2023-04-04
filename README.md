@@ -47,7 +47,7 @@ that are close to the ground truth.
 
 ![image](https://user-images.githubusercontent.com/48787805/229395936-fcfc4f96-1f0b-459d-8a7a-6eb9349ad741.png)
 
-当然我的训练环境并没有和论文中的保持一致，不过数据上也比较接近了
+当然我的训练环境并没有和论文中的保持一致，~~不过数据上也比较接近了~~
 
 ## Dataset
 
