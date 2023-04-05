@@ -23,27 +23,27 @@ that are close to the ground truth.
 
 # 我的实验结果
 ## Installation
-- GPU: 3090
-- Python  3.8.10
+- GPU: 3080ti
+- Python  3.7.13
 - CUDA:11.3
 - CUDnn:8200
 ---
-- h5py                           2.10.0
-- matplotlib                     3.5.0
-- numpy                          1.21.4
+- h5py                           3.8.0
+- matplotlib                     3.5.2
+- numpy                          1.21.5
 - opencv-python                  4.6.0.66
 - Pillow                         8.4.0
-- scikit-learn                   1.1.3
-- scipy                          1.9.3
-- torch                          1.10.0+cu113
-- torchvision                    0.11.1+cu113
+- scikit-learn                   1.0.2
+- scipy                          1.7.3
+- torch                          1.10.0
+- torchvision                    0.11.1
 
 ## 实验结果
 不修改源代码的配置，最终结果如下：
 |ShanghaiTech_Crowd_Counting_Dataset part_B|论文数据|实验数据|
 |--|--|--|
-|MAE|7.8|10.5|
-|RMSE|12.2|18.6|
+|MAE|7.8|8.1|
+|RMSE|12.2|14.9|
 
 ![image](https://user-images.githubusercontent.com/48787805/229395936-fcfc4f96-1f0b-459d-8a7a-6eb9349ad741.png)
 
