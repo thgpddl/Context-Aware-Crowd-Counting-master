@@ -44,8 +44,8 @@ for i in range(len(img_paths)):
     img = transform(Image.open(img_paths[i]).convert('RGB')).cuda()
     img = img.unsqueeze(0)
     h,w = img.shape[2:4]
-    h_d = h/2
-    w_d = w/2
+    h_d = h//2
+    w_d = w//2
     img_1 = Variable(img[:,:,:h_d,:w_d].cuda())
     img_2 = Variable(img[:,:,:h_d,w_d:].cuda())
     img_3 = Variable(img[:,:,h_d:,:w_d].cuda())
