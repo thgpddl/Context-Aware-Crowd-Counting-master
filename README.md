@@ -58,9 +58,9 @@ that are close to the ground truth.
 上海科技大学人群统计数据集：[link](https://www.datafountain.cn/datasets/5670)）
 
 
-&emsp;2. Create the hdf5 files with make_dataset.py, you need to set the path according to dataset location.
+&emsp;2. Create the hdf5 files with make_dataset.py, you need to set the path according to dataset location.对mat进行处理后保存为图片同名的h5文件
 
-&emsp;3. Use create_json.py to generate the json file which contains the path to the images.
+&emsp;3. Use create_json.py to generate the json file which contains the path to the images.这里会得到train和test集的图片的路径。ground文件会通过replace替换路径和后缀h5得到
 
 ## Training
 In command line:
